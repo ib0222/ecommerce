@@ -6,7 +6,7 @@ function Shop() {
   return (
     <div className='shop'>
         <div>
-            <h1>ibotech shop</h1>
+            <h1>ECommerce Shop</h1>
         </div>
         <div className='products'>
             {PRODUCTS.map((product) => <Product data={product} key={product.id}/>)} 
