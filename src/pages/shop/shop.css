@@ -58,3 +58,10 @@
 .shop {
   text-align: center;
 }
+
+@media only screen and (max-width: 1024px) {
+  .products {
+    display: flex;
+    flex-direction: column;
+  }
+}
